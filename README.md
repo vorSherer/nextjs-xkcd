@@ -1,3 +1,13 @@
+# Lab 39 - NEXT.js and XKCD comics
+
+## *Author:  Thomas Sherer, 2020-10-08
+
+## Attributions and Citations
+
+
+---
+Next-app-generated:
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
