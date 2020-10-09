@@ -1,4 +1,16 @@
+/* * {
+  background-color: #fff;
+} */
+
 body {
-  background-color: #faebd7;
-  border: 10px 20px;
+  background-color: #fff;
+}
+
+.hello {
+  background-color: floralwhite;
+  border: 1px solid #DDD;
+  font: 16px Times New Roman, Helvetica, Ariel, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }

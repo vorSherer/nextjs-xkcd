@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-// import base from '../styles/base'
+// import '../styles/base.css'
 
 export default function Home(props) {
   return (
@@ -11,17 +11,16 @@ export default function Home(props) {
         <h1>XKCD</h1>
         <h2>{props.comic.title}</h2>
         <img src={props.comic.img} alt={props.comic.alt}></img>
-      <style>{`
+      {/* <style>{`
         .hello {
-          background: floralwhite;
           border: 1px solid #DDD;
-          font: 15px Times new Roman, Helvetica, Ariel, sans-serif;
+          font: 15px Times New Roman, Helvetica, Ariel, sans-serif;
           margin: 20px;
           padding: 20px;
           text-align: left;
         }
       `}
-      </style>
+      </style> */}
       <Footer comicNum={props.comic.num}/>
       </div>
     </>
