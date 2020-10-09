@@ -16,7 +16,7 @@ The app will display most recent XKCD comic and have links to previous 10 comics
     - Dynamic route should display a single comic
 
 ## Implementation Notes
-- Refer to [XKCD API}(https://xkcd.com/json.html)
+- Refer to [XKCD API](https://xkcd.com/json.html)
     - Inspect the data returned to determine the dynamic links needed.
 - __`basic-css`__ is a good, stripped down, starter template.
 
