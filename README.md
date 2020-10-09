@@ -1,11 +1,38 @@
-# Lab 39 - NEXT.js and XKCD comics
+# Lab 39 - Next.js and XKCD comics
 
-## *Author:  Thomas Sherer, 2020-10-08
+### *Author:  Thomas Sherer, 2020-10-08*
+
+## Overview
+Build a multi page web app using Next.js to consume an external API.
+
+The app will display most recent XKCD comic and have links to previous 10 comics.
+
+## Feature Tasks and Requirements
+- Refer to [example site](https://xkcd-smoky.vercel.app/)
+- Web app should have 2 static routes
+    - Home page at “/”
+    - About page at “/about”
+- Web app should have dynamic routes
+    - Dynamic route should display a single comic
+
+## Implementation Notes
+- Refer to [XKCD API}(https://xkcd.com/json.html)
+    - Inspect the data returned to determine the dynamic links needed.
+- __`basic-css`__ is a good, stripped down, starter template.
+
+## Stretch Goals
+- Make a “hybrid” app where Home and About pages are statically generated
+- Style using Sass instead of CSS
+- Publish web app to the web
+- Use alternate http client instead of axios
+- *__HINT:__ check Next.js blog for help with the stretch goals*
 
 ## Attributions and Citations
 
+- Big thanks to __Brai Frauen__ for help with unraveling CSS knots.
 
 ---
+
 Next-app-generated:
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

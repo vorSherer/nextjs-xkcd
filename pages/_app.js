@@ -1,4 +1,3 @@
-// import '../styles/globals.css'
 import '../styles/base.css'
 
 function MyApp({ Component, pageProps }) {
