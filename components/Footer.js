@@ -14,13 +14,33 @@ export default function Footer(props) {
                 <h2>
                     Previous {nums.length}
                 </h2>
-                <p>
+                <ul className="links">
                     {nums.map(num => (
                         <Link href="/num/[id].js" as={`/num/${num}`} key={num}>
-                            <a>#{num}</a>
+                            <a className="pastComics">#{num}</a>
                         </Link>
                     ))}
-                </p>
+                    
+                    <style jsx> {`
+                        .links {
+                            padding-left: 40px;
+                        }
+
+                        .pastComics {
+                         margin-right: 5px;
+                        }
+                        // /* unvisited link */
+                        // a:link {
+                        // color: #0000EE;
+                        // }
+
+                        // /* visited link */
+                        // a:visited {
+                        // color: #551a8b;
+                        // }
+                    `}
+                    </style>
+                </ul>
             </footer>
         </>
     )
