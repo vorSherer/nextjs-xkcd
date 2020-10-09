@@ -29,15 +29,6 @@ export default function Footer(props) {
                         .pastComics {
                          margin-right: 5px;
                         }
-                        // /* unvisited link */
-                        // a:link {
-                        // color: #0000EE;
-                        // }
-
-                        // /* visited link */
-                        // a:visited {
-                        // color: #551a8b;
-                        // }
                     `}
                     </style>
                 </ul>
